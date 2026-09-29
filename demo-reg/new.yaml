@@ -7,7 +7,7 @@ metadata:
   name: nginx-pod
 spec:
   containers:
-  - image: my-registry:5000/mynginx:v2
+  - image: my-registry:5000/mynginx:v1
     name: nginx-pod
     resources: {}
   dnsPolicy: ClusterFirst
